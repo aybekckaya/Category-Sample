@@ -38,7 +38,7 @@
     
     NSRange textRange = NSMakeRange(0, string.length);
     NSRange matchRange = [regex rangeOfFirstMatchInString:string options:NSMatchingReportProgress range:textRange];
-    
+     
     BOOL didValidate = NO;
     
     // Did we find a matching range
