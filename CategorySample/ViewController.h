@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSString+regex.h"
 
 @interface ViewController : UIViewController
 

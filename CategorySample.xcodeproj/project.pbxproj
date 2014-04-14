@@ -22,6 +22,7 @@
 		A398C7EA18EC3C4F00A9A0C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A398C7C918EC3C4F00A9A0C9 /* UIKit.framework */; };
 		A398C7F218EC3C4F00A9A0C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A398C7F018EC3C4F00A9A0C9 /* InfoPlist.strings */; };
 		A398C7F418EC3C4F00A9A0C9 /* CategorySampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A398C7F318EC3C4F00A9A0C9 /* CategorySampleTests.m */; };
+		A398C7FF18EC3E7000A9A0C9 /* NSString+regex.m in Sources */ = {isa = PBXBuildFile; fileRef = A398C7FE18EC3E7000A9A0C9 /* NSString+regex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		A398C7EF18EC3C4F00A9A0C9 /* CategorySampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CategorySampleTests-Info.plist"; sourceTree = "<group>"; };
 		A398C7F118EC3C4F00A9A0C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A398C7F318EC3C4F00A9A0C9 /* CategorySampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategorySampleTests.m; sourceTree = "<group>"; };
+		A398C7FD18EC3E6F00A9A0C9 /* NSString+regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+regex.h"; sourceTree = "<group>"; };
+		A398C7FE18EC3E7000A9A0C9 /* NSString+regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+regex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				A398C7DE18EC3C4F00A9A0C9 /* ViewController.m */,
 				A398C7E018EC3C4F00A9A0C9 /* Images.xcassets */,
 				A398C7CC18EC3C4F00A9A0C9 /* Supporting Files */,
+				A398C7FD18EC3E6F00A9A0C9 /* NSString+regex.h */,
+				A398C7FE18EC3E7000A9A0C9 /* NSString+regex.m */,
 			);
 			path = CategorySample;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A398C7DF18EC3C4F00A9A0C9 /* ViewController.m in Sources */,
+				A398C7FF18EC3E7000A9A0C9 /* NSString+regex.m in Sources */,
 				A398C7D618EC3C4F00A9A0C9 /* AppDelegate.m in Sources */,
 				A398C7D218EC3C4F00A9A0C9 /* main.m in Sources */,
 			);
